@@ -85,12 +85,12 @@
   <repository>
     <id>maven-releases</id>
     <!-- CHANGE HERE by your team Nexus server -->
-    <url>http://54.147.40.85:8081/repository/maven-releases/</url>
+    <url>http://54.89.29.45:8081/repository/maven-releases/</url>
   </repository>
   <snapshotRepository>
     <id>maven-snapshots</id>
     <!-- CHANGE HERE by your team Nexus server -->
-    <url>http://54.147.40.85:8081/repository/maven-releases/</url>
+    <url>http://54.89.29.45:8081/repository/maven-releases/</url>
   </snapshotRepository>
 </distributionManagement>
          
@@ -563,13 +563,12 @@
             <name>Spring Milestone Repository</name>
             <url>https://repo.spring.io/milestone</url>
         </repository>
-
-    <repository>
-           <id>maven-releases</id>
-           <name>maven-releases</name>
-           <url>http://54.147.40.85:8081/repository/maven-releases/</url>
-    </repository>
-             
+         <repository>
+            <id>maven-releases</id>
+            <name>maven-releases</name>
+            <url>http://54.89.29.45:8081/repository/maven-releases/</url>
+         </repository>
+  
     </repositories>
 
 </project>
